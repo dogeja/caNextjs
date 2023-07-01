@@ -1,6 +1,9 @@
+import Hello from "./Hello.js";
+
 export default function Cart() {
   return (
     <div>
+      <Hello />
       <h4 className="title">Cart</h4>
       <CartItem />
     </div>

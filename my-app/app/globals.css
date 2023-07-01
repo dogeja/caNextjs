@@ -43,6 +43,11 @@ body {
 .food-img {
   width: 200px;
   height: 200px;
+  transition: 0.6s ease-out;
+}
+.food-img:hover {
+  cursor: pointer;
+  opacity: 0.7;
 }
 .cart-item {
   padding: 10px;
